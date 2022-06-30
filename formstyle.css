@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: #000;
+}
+.main{
+    border: 1px solid transparent;
+    background-color: #d3e4fe;
+    /* height: 100vh; */
+    margin: 0 150px;
+}
+.main2{
+background-color: #fdfeff;
+margin: 100px;
+display: block;
+padding: 10px 50px;
+}
+.header{
+    color: #0819fc;
+    margin: 10px 50px;
+}
+.name{
+    margin: 10px 50px;
+    font-weight: 700;
+}
+.name input{
+    border: 1px solid transparent;
+    height: 10vh;
+    width: 20vw;
+    margin: 0 5px;
+    background-color: #e7e9fe;
+    border-radius: 5px;
+    padding: 2px 15px;
+    color: #0819fc;
+}
+.name input::placeholder{
+    color: #0819fc;
+}
+.email{
+    margin: 10px 50px;
+}
+.email input{
+    border: 1px solid transparent;
+    height: 10vh;
+    width: 20vw;
+    margin: 0 5px;
+    background-color: #dce1ff;
+    border-radius: 5px;
+    padding: 2px 15px;
+    color: #0819fc;
+}
+.email input::placeholder{
+    color: #0819fc;
+}
+.address{
+    margin: 10px 50px;
+}
+.address input{
+    width: 43.5vw;
+    border: 1px solid transparent;
+    height: 17vh;
+    margin: 0 5px;
+    background-color: #c7cdfd;
+    border-radius: 5px;
+    padding: 2px 15px;
+    color: #0819fc;
+}.address input::placeholder{
+    color: #0819fc;
+}
+.message{
+    margin: 10px 50px;
+}
+.message input{
+    width: 43.5vw;
+    border: 1px solid transparent;
+    height: 20vh;
+    margin: 0 5px;
+    background-color: #a5b1fd;
+    border-radius: 5px;
+    padding: 2px 15px;
+    color: #0819fc;
+}.message input::placeholder{
+    color: #0819fc;
+}
+.submit input{
+    position: relative;
+    left: 40%;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #233bf5;
+    color: #fdfcf8;
+}
+.greet{
+    margin: 10px 50px;
+}
+.greet h5{
+    color: #50d3a9;
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .parent {
+        display: flex;
+        height: 90vh;
+        margin: 20px;
+        /* background-image:linear-gradient(#0f5e4b, #566138); */
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .child progress {
+        width: 300px;
+        height: 50px;
+      }
+      .child .child2 {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        /* padding: 20px; */
+        border: 1px solid black;
+      }
+      .child .child2 .child3 {
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: relative;
+        left: 48.5%;
+        top: 45%;
+        background-color: white;
+        position: fixed;
+      }
+      .child4 {
+        animation-name: animation;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-timing-function: ease-in-out;
+      }
+      @keyframes animation {
+        0% {
+          background-color: #0f5e4b;
+          width: 40px;
+          height: 20px;
+          border-radius: 20%;
+          position: relative;
+          left: 0;
+          top: 25%;
+        }
+        25% {
+          position: relative;
+          left: 20px;
+          top: 4%;
+        }
+        50% {
+          position: relative;
+          left: 30px;
+          top: -5%;
+        }
+        75% {
+          position: absolute;
+          left: 50px;
+          top: 0%;
+        }
+        100%{
+            position: relative;
+            left: 60px;
+            top: 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">
+        <!-- <form action="">
+                <progress></progress>
+            </form> -->
+        <div class="child2">
+          <div class="child4"></div>
+          <div class="child3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,362 @@
+* {
+    color: white;
+    margin: 0;
+    font-family: "Inconsolata", sans-serif;
+    
+}
+
+.nav {
+    background-color: black;
+    padding: 4px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+.nav .navbar li a:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 2px;
+}
+
+.main h2 {
+    font-size: 10vh;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.main-text {
+    color: white;
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+    background-color: black;
+}
+
+.main img {
+    height: 80vh;
+    width: 100%;
+}
+
+.address {
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+    float: right;
+}
+
+.about {
+    background-color: #ffffff96;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    left: 30%;
+    width: 40vw;
+}
+
+.about h2 {
+    color: white;
+    /* position: relative;
+    left: 45%; */
+    background-color: black;
+    margin: 40px 0;
+    width: 40vw;
+    text-align: center;
+}
+
+.about .desc {
+    text-align: center;
+    /* position: relative;
+    top: 2vh;
+    left: 40%;
+    width: 50vh; */
+    color: black;
+}
+
+.about .quote {
+    margin: 20px;
+    text-align: center;
+    /* position: relative;
+    top: 2vh;
+    left: 25%;
+    width: 50vh; */
+    background-color: grey;
+}
+
+.about img {
+    width: 40vw;
+}
+
+.about p {
+    text-align: left;
+    color: black;
+}
+
+b {
+    color: black;
+}
+
+.menu {
+    background-color: #ffffff96;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    left: 30%;
+    width: 40vw;
+}
+
+.menu h2 {
+    color: white;
+    /* position: relative;
+    left: 45%; */
+    background-color: black;
+    margin: 40px 0;
+    width: 40vw;
+    text-align: center;
+}
+
+.item {
+    background-color: grey;
+}
+
+.menu button {
+    color: black;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.menu-subitem {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-subitem h5 {
+    color: black;
+    text-align: center;
+}
+
+.menu-subitem p {
+    color: black;
+    text-align: center;
+}
+
+.menu-subitem {
+    display: inline;
+}
+
+.img {
+    background-color: #ffffff96;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    left: 30%;
+    width: 40vw;
+}
+
+.img img {
+    width: 40vw;
+}
+
+.find {
+    background-color: #ffffff96;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    left: 30%;
+    width: 40vw;
+}
+
+.find h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 40vw;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.find p {
+    text-align: left;
+    color: black;
+    width: 40vw;
+    font-size: 15px;
+}
+
+.find img {
+    width: 40vw;
+}
+
+.find p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.find p span {
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    background-color: #ffffff96;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+    left: 30%;
+    width: 40vw;
+}
+
+.contact input {
+    margin: 15px 0;
+    height: 5vh;
+    width: 40vw;
+    color: black;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.contact textarea {
+    margin: 15px 0;
+    height: 5vh;
+    width: 40vw;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.contact button {
+    float: left;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #ffffff96;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    width: 40vw;
+}
+
+.footer p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:700px) {
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar li a {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .nav .navbar li a:hover {
+        background-color: #fff;
+        color: black;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (max-width:611px) {
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .navbar li a {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .nav .navbar li a:hover {
+        background-color: #fff;
+        color: black;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (max-width:529px) {
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .navbar li a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .nav .navbar li a:hover {
+        background-color: #fff;
+        color: black;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (max-width:453px) {
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .navbar li a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav .navbar li a:hover {
+        background-color: #fff;
+        color: black;
+        border-radius: 2px;
+    }
+}

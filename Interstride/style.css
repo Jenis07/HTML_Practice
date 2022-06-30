@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.loginnav {
+    background-color: #000C3D;
+    padding-top: 18px;
+    padding-bottom: 35px;
+}
+
+.loginnav .navbar li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline;
+    list-style-type: none;
+    font-size: 13.5px;
+}
+
+.loginnav .navbar {
+    float: right;
+    margin-right: 8vw;
+}
+
+.loginnav .navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainnav {
+    z-index: 1;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid #EBF1F7;
+}
+
+.mainnav img {
+    width: 15vw;
+    height: 7vh;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.mainnav .navbar-2 {
+    display: flex;
+    justify-content: flex-end !important;
+    margin-left: 170px;
+    margin-right: 40px;
+    margin-top: 65px;
+}
+
+.mainnav .navbar-2 li a {
+    font-weight: 400 !important;
+    color: #0030B5;
+}
+
+.mainnav .navbar-2 li {
+    font-size: 13.5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.mainnav .navbar-2 li .employee {
+    transition: 2s;
+    display: none;
+}
+
+.mainnav .navbar-2 li .res {
+    display: none;
+}
+
+.mainnav .navbar-2 li i {
+    margin-right: 4px;
+    margin-left: 4px;
+    color: black;
+}
+
+.mainnav .navbar-2 li:hover .navbar-2 {
+    display: inline;
+}
+
+.mainnav .navbar-2 li:hover .item {
+    text-decoration: underline;
+}
+
+.mainnav .navbar-2 li:hover .employee {
+    box-sizing: content-box;
+    float: center;
+    position: relative;
+    top: 10px;
+    width: min-content;
+    text-align: justify;
+    box-shadow: -10px 10px 10px rgba(128, 128, 128, 0.24);
+    display: flex;
+    flex-direction: column;
+}
+
+.mainnav .navbar-2 li i:hover .employee {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainnav .btn {
+    cursor: pointer;
+    background-color: #0030B5;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 14vw;
+    height: 6vh;
+    font-size: 15px;
+    margin: 60px 20px 20px 20px;
+    text-transform: uppercase;
+}
+
+.mainnav .navbar-2 li:hover .res {
+    z-index: 5;
+    box-sizing: content-box;
+    float: center;
+    position: relative;
+    top: 10px;
+    box-shadow: -10px 10px 10px rgba(128, 128, 128, 0.24);
+    display: flex;
+    flex-direction: column;
+}
+
+.mainnav .navbar-2 li i:hover .res {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.main .head h1,
+p {
+    color: #000371;
+}
+
+.main .head {
+    padding: 50px;
+}
+
+.main .head h1 {
+    font-size: 43px;
+}
+
+.main .head p {
+    padding-top: 15px;
+    font-weight: 400 !important;
+}
+
+.main .head button {
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FF7570;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 16vw;
+    height: 8vh;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.section2 h3 {
+    font-size: 28px;
+    color: #000371;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.section2 {
+    padding-top: 20px;
+}
+
+.section2 .images {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    overflow: scroll;
+}
+
+.section2 button {
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0030B5;
+    color: white;
+    position: relative;
+    left: 40%;
+    border-radius: 20px;
+    border: none;
+    width: 16vw;
+    height: 8vh;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.section3 {
+    display: flex;
+    padding: 80px;
+}
+
+.section3 .head {
+    width: 40vw;
+    padding: 50px;
+}
+
+.section3 .head h2 {
+    font-size: 30px;
+    color: #000371;
+    padding: 15px 10px;
+}
+
+.section3 .head p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.section4 {
+    display: flex;
+    padding: 80px;
+}
+
+.section4 .head {
+    width: 40vw;
+    padding: 50px;
+}
+
+.section4 .head h2 {
+    font-size: 30px;
+    color: #000371;
+    padding: 15px 10px;
+}
+
+.section4 .head p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.section5 {
+    display: flex;
+    padding: 80px;
+}
+
+.section5 .head {
+    width: 40vw;
+    padding: 50px;
+}
+
+.section5 .head h2 {
+    font-size: 30px;
+    color: #000371;
+    padding: 15px 10px;
+}
+
+.section5 .head p {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.section6 {
+    padding: 80px;
+}
+
+.section6 h2 {
+    font-size: 30px;
+    color: #000371;
+    text-align: center;
+}
+
+.test {
+    margin: 20px;
+    text-align: center;
+}
+
+.section7 {
+    padding: 80px;
+}
+
+.section7 h1 {
+    text-align: center;
+}
+
+.section7 .images {
+    cursor: pointer;
+    width: 48px;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+}
+
+.section7 .images a {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* .section7 .images a::before {
+    position: absolute;
+    content: "a";
+    top: 890%;
+    background-image: url(https://www.interstride.com/wp-content/uploads/2021/09/Play-button-Copy-2.svg);
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+    font-size: 0px;
+    z-index: 9;
+    margin-left: 90px;
+} */
+.section7 .images div {
+    text-align: center;
+    display: block;
+}
+
+.section7 .images div h2 {
+    color: #000371;
+    font-size: 18px;
+}
+
+.section8 {
+    height: 40vh;
+    background-image: url('https://www.interstride.com/wp-content/uploads/2020/05/Group-1-1-1.png');
+}
+
+.section8 h2 {
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    top: 15%;
+}
+
+.section8 button {
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FF7570;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 16vw;
+    height: 8vh;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.section9 {
+    height: 40vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.section9 .email {
+    position: relative;
+    right: 20px;
+    margin-left: 80px;
+}
+
+.section9 h3 {
+    color: #000371;
+    width: 40vw;
+    padding: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.section9 .email input {
+    position: relative;
+    top: 40%;
+    right: 20px;
+    padding: 5px;
+    height: 6vh;
+    border: 1px solid grey;
+    color: #566D82 !important;
+    border-radius: 15px 0 0 15px;
+}
+
+.section9 .email button {
+    background-color: #566D82;
+    position: relative;
+    top: 40%;
+    right: 20px;
+    color: white;
+    font-size: 13px;
+    padding: 18px;
+    width: 10vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: #F6F8FB;
+    display: flex;
+}
+
+.footer .ul1 ul {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.footer .ul1 ul li {
+    font-weight: 400 !important;
+    margin: 5px;
+    color: #0030B5;
+}
+
+.footer .ul1 ul li a {
+    font-style: normal;
+    color: #0030B5;
+}
+
+.ul1 ul li:hover a {
+    text-decoration: underline;
+}
+
+.footer .ul2 ul li {
+    font-weight: 400 !important;
+    margin: 5px;
+    color: #0030B5;
+}
+
+.footer .ul2 ul li a {
+    font-style: normal;
+    color: #0030B5;
+}
+
+.ul2 ul li:hover a {
+    text-decoration: underline;
+}
+
+.footer .ul3 ul li {
+    font-weight: 400 !important;
+    margin: 5px;
+    color: #0030B5;
+}
+
+.footer .ul3 ul li a {
+    font-style: normal;
+    color: #0030B5;
+}
+
+.ul3 ul li:hover a {
+    text-decoration: underline;
+}
+
+.ul3 ul {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer2 {
+    margin-left: 300px;
+}
+
+.play {
+    margin: 10px;
+}
+
+.footer2 a {
+    margin-left: 10px;
+    color: #0030B5;
+    font-size: 13px;
+}
+
+.footer2 a:hover {
+    text-decoration: underline;
+}
+
+.footer2 span {
+    margin-top: 7px;
+    font-size: 11px;
+    margin-left: 10px;
+    color: #0030B5;
+}
+
+.footer3 {
+    background-color: #F6F8FB;
+    position: absolute;
+    left: 106px;
+}
+
+.footer3 a img {
+    margin: 5px;
+    width: 1.8vw;
+}
+
+#up {
+    font-size: 25px;
+}
+
+.last {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}

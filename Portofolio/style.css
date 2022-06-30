@@ -1,0 +1,98 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif
+}
+
+/* .parent {
+    display: flex;
+} */
+
+.nav {
+    position: fixed;
+    z-index: 2;
+    height: 110vh;
+}
+
+.nav .navbar {
+    padding-left: 20px;
+    padding-top: 4px;
+    background-color: grey;
+    position: relative;
+    left: 0;
+    top: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.nav .navbar li img {
+    width: 10vw;
+    padding: 0;
+    margin: -18px;
+}
+
+.nav .navbar li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    /* padding: 50px 20px; */
+    padding-top: 20px;
+    padding-left: 00px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.nav .navbar li a {
+    background-color: grey;
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    /* padding:20px 0; */
+}
+
+.nav .navbar li:hover a{
+    background-color: white;
+    color: black;
+}
+.nav .navbar li a:hover {
+    background-color: white;
+    color: black;
+}
+.nav .navbar li i {
+    text-align: center;
+    font-size: 20px;
+    background-color: grey;
+}
+
+.main h1 {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 50px;
+    color: black;
+    background-color: transparent;
+}
+.main h3{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 30px;
+    color: black;
+    z-index: 1;
+    background-color: transparent;
+}
+.name{
+    position: relative;
+    top: 0px;
+}   
+.main img{
+    width: 98vw;
+    /* position: relative;
+    left: 20%; */
+}
+.name p{
+    color: grey;
+}

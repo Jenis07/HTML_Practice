@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- <link rel="shortcut icon" href="https://www.pngkey.com/png/full/334-3347042_icon-add-user-icon.png" type="image/x-icon"> -->
+</head>
+<body>
+    <!--Design the below Form with HTML - CSS using table and form elements.-->
+    <div class="main">
+        <div class="side">
+            <h4 class="head">Register Now</h4>
+            <br>
+        <span class="head2">While seats are available</span>
+        </div>
+        <div class="form">
+            <form action="" method="post">
+            <table>
+                <div class="form1">
+                <tr>
+                    <td><label for="fname" class="lbl">First Name <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname" class="lbl">Last Name <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="Company" class="lbl">Company <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="company"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" class="lbl">Email <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone" class="lbl">Phone Number <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="donate" class="lbl">Donate Us <span class="req">*</span></label></td>
+                </tr>
+                <tr>
+                    <td><input type="range" name="donate" id="" value="70"></td>
+                </tr>
+            </table>
+            </div>
+            <div class="form2">
+                <table>
+                <tr>
+                    <td class="lbl">Meal preference <span class="req">*</span><span class="note">Lunch Details</span></td>
+                    </tr>
+                <tr>
+                    <td>
+                <select name="meal" id="">
+                    <option value="veg">Vegetarian</option>
+                    <option value="Non">Non-Vegetarian</option>
+                </select>
+            </td>
+            </tr>
+            <tr >
+                <td class="lbl">Payment Mode<span class="req">*</span><span class="note">Payment Details</span></td>
+                </tr>
+            <tr>
+                <td class="pym">
+                    <input type="radio" name="payment" id=""><label class="rd">Cash</label>
+                    <input type="radio" name="payment" id=""><label class="rd">Cheque</label>
+                    <input type="radio" name="payment" id=""><label class="rd">DD</label>
+        </td>
+        </tr>
+        <tr>
+            <td><label for="dd" class="lbl">DD/CHEQUE No.<span class="req">*</span></label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="dd"></td>
+        </tr>
+        <tr>
+            <td><label for="dr" class="lbl"> Drawn On (Bank Name)<span class="req">*</span></label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="dr"></td>
+        </tr>
+        <tr>
+            <td><label for="dr" class="lbl">payable At<span class="req">*</span></label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="dr"></td>
+        </tr>
+        <tr>
+            <td class="btn"><button type="submit">Submit</button><button type="reset">Reset</button></td>
+        </tr>
+            </div>
+            </table>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
